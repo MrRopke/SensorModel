@@ -11,5 +11,7 @@ namespace SensorModels
         public string Password { get; set; }
         public double Lat { get; set; }
         public double Lon { get; set; }
+        public int WaterCount { get; set; }
+        public DateTimeOffset LastWater { get; set; }
     }
 }
